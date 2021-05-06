@@ -1,5 +1,5 @@
 # UDH: Universal Deep Hiding for Steganography, Watermarking, and Light Field Messaging
-This is the repository for the NeurIPS 2020 paper titled [UDH: Universal Deep Hiding for Steganography, Watermarking, and Light Field Messaging](https://papers.nips.cc/paper/2020/file/73d02e4344f71a0b0d51a925246990e7-Paper.pdf)
+This is the repository for the NeurIPS 2020 paper titled [UDH: Universal Deep Hiding for Steganography, Watermarking, and Light Field Messaging](https://papers.nips.cc/paper/2020/file/73d02e4344f71a0b0d51a925246990e7-Paper.pdf).
 
 ## Abstract
 Neural networks have been shown effective in deep steganography for hiding a full image in another. However, the reason for its success remains not fully clear. Under the existing cover (*C*) dependent deep hiding (DDH) pipeline, it is challenging to analyze how the secret (*S*) image is encoded since the encoded message cannot be analyzed independently. We propose a novel universal deep hiding (UDH) meta-architecture to disentangle the encoding of *S* from *C*. We perform extensive analysis and demonstrate that the success of deep steganography can be attributed to a frequency discrepancy between *C* and the encoded secret image. Despite *S* being hidden in a cover-agnostic manner, strikingly, UDH achieves a performance comparable to the existing DDH. Beyond hiding one image, we push the limits of deep steganography. Exploiting its property of being *universal*, we propose universal watermarking as a timely solution to address the concern of the exponentially increasing amount of images/videos. UDH is robust to a pixel intensity shift on the container image, which makes it suitable for challenging application of light field messaging (LFM). This is the first work demonstrating the success of (DNN-based) hiding a full image for watermarking and LFM.
@@ -36,6 +36,9 @@ Download the folder `training` and put it inside the project folder. Now the tes
 
 ## JPEG
 Code for the pseudo-differentiable JPEG used for watermarking is available [here](https://github.com/ChaoningZhang/Pseudo-Differentiable-JPEG).
+
+## License & Disclaimer
+This code is strictly for non-commercial academic use only. 
 
 ## Citation
 ```
