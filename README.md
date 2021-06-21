@@ -34,7 +34,7 @@ Utility code is provided in the `./util/` folder for LFM processing: `align_imag
 Pre-trained weights for different models can be accessed [here](https://cloud.frameau.xyz/index.php/s/dFGagRWystSss7D). 
 Download the folder `training` and put it inside the project folder. Now the test scripts can be run without training.
 
-*Update 21.06.21*: LFM, hiding 6 secret images in 3 cover images, hiding 2 colored images in 1 grayscale image, and hiding with multiple encoders and decoders weights are availabe [here](https://cloud.frameau.xyz/index.php/s/YDowXx5L8LqTaoM).
+*Update 21.06.21*: LFM, hiding 6 secret images in 3 cover images, hiding 2 colored images in 1 grayscale image, and hiding with multiple encoders and decoders weights are availabe [here](https://cloud.frameau.xyz/index.php/s/YDowXx5L8LqTaoM). These weights were retrained for your convenience (not original weights used in the paper).
 
 ## JPEG
 Code for the pseudo-differentiable JPEG used for watermarking is available [here](https://github.com/ChaoningZhang/Pseudo-Differentiable-JPEG).
